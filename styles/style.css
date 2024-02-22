@@ -71,7 +71,7 @@ header {
 
 /*Стили для тела*/
 
-.dark{
+.dark_jambotron{
     position: relative;
 }
 
@@ -92,14 +92,17 @@ header {
     display: flex;
     content: ""; 
     position: absolute;
-    top: 0; right: 0; bottom: 0; left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 0;
 }
 
 .cover_title_1, .cover_subline, .cover_button, .cover_title_jambotron{
     color: white;
-    z-index: 2; /* Устанавливаем текст поверх затемнения */
+    z-index: 2;
 }
 
 .cover_title_1{
@@ -147,14 +150,257 @@ header {
     
 }
 
+/*------------------------------*/
 
+/*Стили для лотов тела*/
 
-.cover_title{
-    background-image: url(/YandexPracticum/ono-tebe-nado/images/cover.jpg);
+.lots{
+    margin-top: 200px;
+    width: 1052px;
+    height: 692px;
+    top: 1229px;
+    left: 24px;
+
+}
+
+.cover_title_lots{
+    width: 121px;
+    height: 47px;
+    left: 40px;
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.dark_lots{
+    position: relative;
+}
+
+.lots_list{
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.lot_1::before,
+.lot_2::before,
+.lot_3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+
+.lot_1{
+    background-image: url(card-lot-01.jpg);
+    width: 334px;
+    height: 563px;
+    top: 74px;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.lot_2{
+    background-image: url(card-lot-02.jpg);
+    width: 334px;
+    height: 563px;
+    top: 74px;
+    left: 359px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.lot_3{
+    background-image: url(card-lot-03.jpg);
+    width: 334px;
+    height: 563px;
+    top: 74px;
+    left: 718px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.main_text_1, .main_text_2, .main_text_3{
+    width: 254px;
+    height: 82px;
+    top: 125px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    z-index: 2;
+}
+
+.lot_text_1, .lot_text_2, .lot_text_3{
+    width: 254px;
+    height: 144px;
+    top: 445px;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: white;
+    text-align: left;
+    text-align: center;
+    z-index: 2;
+}
+
+.main_text_2{
+    left: 399px;
+
+}
+
+.main_text_3{
+    left: 758px;
+    
+}
+
+.more{
+    width: 192px;
+    height: 25px;
+    top: 667px;
+    left: 40px;
+    border: 1px;
+    text-decoration: underline;
+}
+
+/*------------------------------*/
+
+/*Стили для информации об аукционе*/
+
+.about{
+    display: flex;
+}
+
+.background_logo_column{
+    width: 240px;
+    height: 240px;
+    top: 35px;
+    left: 47px;
+    background-color: black;
+    border-radius: 50%;
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo_column{
-    background-color: black;
+    background-image: url(images/logo-white.svg);
+    max-width: 100%;
+    width: 148px;
+    height: 114px;
+    top: 64px;
+    left: 46.48px;
+    background-position: center;
 }
 
+.about_column{
+    width: 291px;
+    height: 47px;
+    top: 3px;
 
+
+}
+
+.cover_title_about{
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.about_text{
+    width: 693px;
+    height: 312px;
+    top: 150px;
+
+}
+
+.about_text_1{
+    width: 688px;
+    height: 120px;
+    top: 150px;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-align: left;
+
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    text-align: left;
+
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.about_text_2{
+    width: 693px;
+    height: 168px;
+    top: 294px;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    text-align: left;
+
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: left;
+
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
