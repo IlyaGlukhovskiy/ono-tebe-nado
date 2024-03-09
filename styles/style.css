@@ -100,7 +100,7 @@ header {
     z-index: 0;
 }
 
-.cover_title_1, .cover_subline, .cover_button, .cover_title_jambotron, .cover_button{
+.cover_title_1, .cover_subline, .cover_button, .cover_title_jambotron, .cover_button, .button{
     color: white;
     z-index: 2;
 }
@@ -137,7 +137,8 @@ header {
     height: 51px;
     top: 655px;
     left: 794px;
-    background-color: rgba(28,28,28,0);
+
+    background-color: rgba(1,1,1,0);
     border: 1px solid #FFFFFF;
     border-color: white;
     font-family: Raleway;
@@ -161,6 +162,7 @@ header {
     height: 692px;
     top: 1229px;
     left: 24px;
+    color: white;
 
 }
 
@@ -200,32 +202,39 @@ header {
     z-index: 0;
 }
 
+.lot_1,
+.lot_2,
+.lot_3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .lot_1{
-    background-image: url(card-lot-01.jpg);
     width: 334px;
     height: 563px;
     top: 74px;
-    justify-content: center;
+    background-image: url(card-lot-01.jpg);
     background-repeat: no-repeat;
     background-size:cover;
 }
 
 .lot_2{
-    background-image: url(card-lot-02.jpg);
     width: 334px;
     height: 563px;
     top: 74px;
     left: 359px;
+    background-image: url(card-lot-02.jpg);
     background-repeat: no-repeat;
     background-size:cover;
 }
 
 .lot_3{
-    background-image: url(card-lot-03.jpg);
     width: 334px;
     height: 563px;
     top: 74px;
     left: 718px;
+    background-image: url(card-lot-03.jpg);
     background-repeat: no-repeat;
     background-size:cover;
 }
@@ -236,28 +245,12 @@ header {
     top: 125px;
     text-decoration: underline;
     text-transform: uppercase;
+    text-align: left;
     font-family: Raleway;
     font-size: 22px;
     font-weight: 700;
     line-height: 26px;
     letter-spacing: 0em;
-    text-align: center;
-    color: white;
-    z-index: 2;
-}
-
-.lot_text_1, .lot_text_2, .lot_text_3{
-    width: 254px;
-    height: 144px;
-    top: 445px;
-    font-family: Raleway;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0em;
-    color: white;
-    text-align: left;
-    text-align: center;
     z-index: 2;
 }
 
@@ -268,6 +261,35 @@ header {
 
 .main_text_3{
     left: 758px;
+    
+}
+
+.lot_text_1, .lot_text_2, .lot_text_3{
+    text-align: left;
+    z-index: 2;
+}
+
+.lot_text_1{
+    width: 254px;
+    height: 144px;
+    top: 445px;
+    left: 40px;
+    
+}
+
+.lot_text_2{
+    width: 254px;
+    height: 360px;
+    top: 229px;
+    left: 399px;
+    
+}
+
+.lot_text_3{
+    width: 254px;
+    height: 360px;
+    top: 229px;
+    left: 399px;
     
 }
 
