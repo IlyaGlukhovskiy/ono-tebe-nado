@@ -79,7 +79,7 @@ header {
     width: 1100px;
     height: 757px;
     top: 293px;
-    margin-top: 100px;
+    margin-top: 98px;
     background-image:url(cover.jpg);
     background-repeat: no-repeat;
     background-size:cover;
@@ -137,7 +137,6 @@ header {
     height: 51px;
     top: 655px;
     left: 794px;
-
     background-color: rgba(1,1,1,0);
     border: 1px solid #FFFFFF;
     border-color: white;
@@ -149,7 +148,6 @@ header {
     line-height: 26px;
     letter-spacing: 0em;
     text-align: center;
-
 }
 
 /*------------------------------*/
@@ -163,7 +161,6 @@ header {
     top: 1229px;
     left: 24px;
     color: white;
-
 }
 
 .cover_title_lots{
@@ -176,7 +173,9 @@ header {
     line-height: 47px;
     letter-spacing: 0em;
     text-align: left;
-    
+    color: black;
+    padding-left: 45px;
+    padding-bottom: 36px;
 }
 
 .dark_lots{
@@ -215,6 +214,7 @@ header {
     height: 563px;
     top: 74px;
     background-image: url(card-lot-01.jpg);
+    background-position: -100px;
     background-repeat: no-repeat;
     background-size:cover;
 }
@@ -225,6 +225,7 @@ header {
     top: 74px;
     left: 359px;
     background-image: url(card-lot-02.jpg);
+    background-position: -110px;
     background-repeat: no-repeat;
     background-size:cover;
 }
@@ -235,13 +236,13 @@ header {
     top: 74px;
     left: 718px;
     background-image: url(card-lot-03.jpg);
+    background-position: -101px;
     background-repeat: no-repeat;
     background-size:cover;
 }
 
 .main_text_1, .main_text_2, .main_text_3{
     width: 254px;
-    height: 82px;
     top: 125px;
     text-decoration: underline;
     text-transform: uppercase;
@@ -249,22 +250,33 @@ header {
     font-family: Raleway;
     font-size: 22px;
     font-weight: 700;
-    line-height: 26px;
+    line-height: 26.4px;
     letter-spacing: 0em;
     z-index: 2;
+    padding-top: 51px;
+}
+
+.main_text_1{
+    height: 82px;
+    left: 40px;
 }
 
 .main_text_2{
+    height: 110px;
     left: 399px;
-
 }
 
 .main_text_3{
+    height: 110px;
     left: 758px;
-    
 }
 
 .lot_text_1, .lot_text_2, .lot_text_3{
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
     text-align: left;
     z-index: 2;
 }
@@ -274,7 +286,7 @@ header {
     height: 144px;
     top: 445px;
     left: 40px;
-    
+    padding-top: 243px;
 }
 
 .lot_text_2{
@@ -282,15 +294,14 @@ header {
     height: 360px;
     top: 229px;
     left: 399px;
-    
 }
 
 .lot_text_3{
     width: 254px;
-    height: 360px;
-    top: 229px;
-    left: 399px;
-    
+    height: 264px;
+    top: 325px;
+    left: 758px;
+    padding-top: 95px;
 }
 
 .more{
@@ -299,7 +310,16 @@ header {
     top: 667px;
     left: 40px;
     border: 1px;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
     text-decoration: underline;
+    color: black;
+    padding-left: 45px;
+    padding-top: 36px;
 }
 
 /*------------------------------*/
