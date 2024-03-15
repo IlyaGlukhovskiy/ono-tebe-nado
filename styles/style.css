@@ -329,6 +329,11 @@ header {
 .about{
     display: flex;
     padding-top: 100px;
+    width: 1052px;
+    height: 595px;
+    top: 2067px;
+    left: 24px;
+
 }
 
 .background_logo_column{
@@ -365,6 +370,15 @@ header {
     top: 133px;
     left: 359px;
     padding: 3px, 0px, 0px, 0px;
+    margin: auto;
+}
+
+.about_full_text{
+    width: 693px;
+    height: 449px;
+    top: 133px;
+    left: 359px;
+    padding: 3 0 0 0;
 
 }
 
@@ -372,7 +386,7 @@ header {
     width: 291px;
     height: 47px;
     top: 3px;
-
+    
 }
 
 .cover_title_3{
@@ -381,14 +395,14 @@ header {
     font-weight: 700;
     line-height: 47px;
     letter-spacing: 0em;
-    text-align: left;
+
 }
 
 .about_text{
     width: 693px;
     height: 312px;
     top: 150px;
-
+    position: relative;
 }
 
 .about_text_1{
