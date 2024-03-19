@@ -436,6 +436,7 @@ header {
 /*Стили для подвала*/
 
 .footer__menu{
+    padding-top: 140px;
     width: 1000px;
     height: 98px;
     top: 2842px;
@@ -443,7 +444,9 @@ header {
     gap: 0px;
     border: 1px 0px 0px 0px;
     opacity: 0px;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .footer_contacts{
@@ -465,10 +468,15 @@ header {
     gap: 0px;
     border: 1px 0px 0px 0px;
     opacity: 0px;
-
+    text-align: center;
+    list-style: none;
 }
 
-.footer__social_list{
+.footer_list_items_underline{
+    text-decoration: underline;
+}
+
+.footer_social_list{
     width: Hug (240px)px;
     height: Hug (48px)px;
     top: 2843px;
@@ -476,6 +484,10 @@ header {
     gap: 48px;
     opacity: 0px;
 
+}
+
+.footer_social_list{
+    
 }
 
 .vk, .yt, .pi{
