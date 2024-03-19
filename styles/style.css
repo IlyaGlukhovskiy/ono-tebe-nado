@@ -430,3 +430,59 @@ header {
     text-align: left;
 
 }
+
+/*------------------------------*/
+
+/*Стили для подвала*/
+
+.footer__menu{
+    width: 1000px;
+    height: 98px;
+    top: 2842px;
+    left: 50px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+.footer_contacts{
+    width: 240.52px;
+    height: 98px;
+    top: 2842px;
+    left: 50px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+.footer_list_menu{
+    width: 149px;
+    height: 64px;
+    top: 2843px;
+    left: 476px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+.footer__social_list{
+    width: Hug (240px)px;
+    height: Hug (48px)px;
+    top: 2843px;
+    left: 810px;
+    gap: 48px;
+    opacity: 0px;
+
+}
+
+.vk, .yt, .pi{
+    width: 48px;
+    height: 48px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
+}
