@@ -488,11 +488,9 @@ header{
     left: 810px;
     gap: 48px;
     opacity: 0px;
-
-}
-
-.footer_social_list{
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .vk, .yt, .pi{
