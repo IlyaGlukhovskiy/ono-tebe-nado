@@ -88,6 +88,7 @@ header{
     background-image:url(cover.jpg);
     background-repeat: no-repeat;
     background-size:cover;
+    background-position: -139px;
     z-index: 1;
     display: flex;
     flex-direction: column;
@@ -391,7 +392,7 @@ header{
     width: 291px;
     height: 47px;
     top: 3px;
-    
+    padding-top: 30px;
 }
 
 .cover_title_3{
