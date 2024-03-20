@@ -1,6 +1,6 @@
 /*Стили для головы*/
 
-header {
+header{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -53,6 +53,10 @@ header {
     left: 9.03px;
 }
 
+.header_contact_info{
+    font-style: normal;
+}
+
 .header_contact{
     width: 240.52px;
     height: 98px;
@@ -65,6 +69,7 @@ header {
     line-height: 24px;
     letter-spacing: 0.01em;
     text-align: left;
+    font-style: normal;
 }
 
 /*------------------------------*/
@@ -457,7 +462,7 @@ header {
     gap: 0px;
     border: 1px 0px 0px 0px;
     opacity: 0px;
-
+    font-style: normal;
 }
 
 .footer_list_menu{
@@ -498,3 +503,4 @@ header {
     opacity: 0px;
 
 }
+
