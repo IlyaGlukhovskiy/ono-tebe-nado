@@ -100,7 +100,7 @@ header {
 
 .jambotron::after {
     display: flex;
-    content: ""; 
+    content: "-"; 
     position: absolute;
     top: 0;
     right: 0;
@@ -110,7 +110,7 @@ header {
     z-index: 0;
 }
 
-.cover_title_1, .cover_subline, .cover_button, .cover_title_jambotron, .cover_button, .button {
+.cover_title_1, .cover_subline, .cover_button, .cover_title_jambotron, .button {
     color: white;
     z-index: 2;
 }
