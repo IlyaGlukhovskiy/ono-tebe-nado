@@ -151,7 +151,6 @@ header {
     border-color: white;
     font-family: Raleway;
     position: absolute;
-    font-family: Raleway;
     font-size: 22px;
     font-weight: 500;
     line-height: 26px;
@@ -359,16 +358,12 @@ header {
 }
 
 .logo_column {
-    width: 240px;
-    height: 240px;
     top: 35px;
     left: 47px;
     background-image: url(images/logo-white.svg);
     max-width: 100%;
     width: 148px;
     height: 114px;
-    top: 64px;
-    left: 46.48px;
     background-position: center;
 }
 
