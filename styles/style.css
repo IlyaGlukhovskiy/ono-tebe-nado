@@ -1,10 +1,10 @@
-html{
+html {
     scroll-behavior: smooth;
   }
   
 /*Стили для головы*/
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,7 +15,7 @@ header{
     margin-top: 100px;
 }
 
-.header_menu{
+.header_menu {
     width: 391.48px;
     height: 22px;
     top: 44px;
@@ -23,7 +23,7 @@ header{
     border: 1px;
 }
 
-.header_list_items{
+.header_list_items {
     list-style: none;
     font-family: Raleway;
     font-size: 18px;
@@ -33,7 +33,7 @@ header{
     text-align: left;
 }
 
-.header_list_items_underline{
+.header_list_items_underline {
     text-decoration: underline;
     list-style: circle;
     font-family: Raleway;
@@ -44,24 +44,24 @@ header{
     text-align: left;
 }
 
-.header_list_menu{
+.header_list_menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.header_logo{
+.header_logo {
     width: 129.11px;
     height: 104.65px;
     top: 1.16px;
     left: 9.03px;
 }
 
-.header_contact_info{
+.header_contact_info {
     font-style: normal;
 }
 
-.header_contact{
+.header_contact {
     width: 240.52px;
     height: 98px;
     top: 5px;
@@ -80,11 +80,11 @@ header{
 
 /*Стили для тела*/
 
-.dark_jambotron{
+.dark_jambotron {
     position: relative;
 }
 
-.jambotron{
+.jambotron {
     width: 1100px;
     height: 757px;
     top: 293px;
@@ -110,12 +110,12 @@ header{
     z-index: 0;
 }
 
-.cover_title_1, .cover_subline, .cover_button, .cover_title_jambotron, .cover_button, .button{
+.cover_title_1, .cover_subline, .cover_button, .cover_title_jambotron, .cover_button, .button {
     color: white;
     z-index: 2;
 }
 
-.cover_title_1{
+.cover_title_1 {
     width: 1000px;
     height: 355px;
     top: 165px;
@@ -127,7 +127,7 @@ header{
 
 }
 
-.cover_subline{
+.cover_subline {
     width: 637px;
     height: 28px;
     top: 667px;
@@ -142,7 +142,7 @@ header{
     position: absolute;
 }
 
-.button{
+.button {
     width: 256px;
     height: 51px;
     top: 655px;
@@ -164,7 +164,7 @@ header{
 
 /*Стили для лотов тела*/
 
-.lots{
+.lots {
     margin-top: 200px;
     width: 1052px;
     height: 692px;
@@ -173,7 +173,7 @@ header{
     color: white;
 }
 
-.cover_title_lots{
+.cover_title_lots {
     width: 121px;
     height: 47px;
     left: 40px;
@@ -188,11 +188,11 @@ header{
     padding-bottom: 36px;
 }
 
-.dark_lots{
+.dark_lots {
     position: relative;
 }
 
-.lots_list{
+.lots_list {
     display: flex;
     justify-content: space-between;
     z-index: 1;
@@ -219,7 +219,7 @@ header{
     align-items: center;
 }
 
-.lot_1{
+.lot_1 {
     width: 334px;
     height: 563px;
     top: 74px;
@@ -229,7 +229,7 @@ header{
     background-size:cover;
 }
 
-.lot_2{
+.lot_2 {
     width: 334px;
     height: 563px;
     top: 74px;
@@ -240,7 +240,7 @@ header{
     background-size:cover;
 }
 
-.lot_3{
+.lot_3 {
     width: 334px;
     height: 563px;
     top: 74px;
@@ -251,7 +251,7 @@ header{
     background-size:cover;
 }
 
-.main_text_1, .main_text_2, .main_text_3{
+.main_text_1, .main_text_2, .main_text_3 {
     width: 254px;
     top: 125px;
     text-decoration: underline;
@@ -266,22 +266,22 @@ header{
     padding-top: 51px;
 }
 
-.main_text_1{
+.main_text_1 {
     height: 82px;
     left: 40px;
 }
 
-.main_text_2{
+.main_text_2 {
     height: 110px;
     left: 399px;
 }
 
-.main_text_3{
+.main_text_3 {
     height: 110px;
     left: 758px;
 }
 
-.lot_text_1, .lot_text_2, .lot_text_3{
+.lot_text_1, .lot_text_2, .lot_text_3 {
     font-family: Raleway;
     font-size: 20px;
     font-weight: 400;
@@ -291,7 +291,7 @@ header{
     z-index: 2;
 }
 
-.lot_text_1{
+.lot_text_1 {
     width: 254px;
     height: 144px;
     top: 445px;
@@ -299,14 +299,14 @@ header{
     padding-top: 243px;
 }
 
-.lot_text_2{
+.lot_text_2 {
     width: 254px;
     height: 360px;
     top: 229px;
     left: 399px;
 }
 
-.lot_text_3{
+.lot_text_3 {
     width: 254px;
     height: 264px;
     top: 325px;
@@ -314,7 +314,7 @@ header{
     padding-top: 95px;
 }
 
-.more{
+.more {
     width: 192px;
     height: 25px;
     top: 667px;
@@ -336,7 +336,7 @@ header{
 
 /*Стили для информации об аукционе*/
 
-.about{
+.about {
     display: flex;
     padding-top: 100px;
     width: 1052px;
@@ -346,7 +346,7 @@ header{
 
 }
 
-.background_logo_column{
+.background_logo_column {
     width: 240px;
     height: 240px;
     top: 35px;
@@ -360,7 +360,7 @@ header{
     align-items: center;
 }
 
-.logo_column{
+.logo_column {
     width: 240px;
     height: 240px;
     top: 35px;
@@ -374,7 +374,7 @@ header{
     background-position: center;
 }
 
-.about_column{
+.about_column {
     width: 693px;
     height: 449px;
     top: 133px;
@@ -383,7 +383,7 @@ header{
     margin: auto;
 }
 
-.about_full_text{
+.about_full_text {
     width: 693px;
     height: 449px;
     top: 133px;
@@ -392,14 +392,14 @@ header{
 
 }
 
-.cover_title_about{
+.cover_title_about {
     width: 291px;
     height: 47px;
     top: 3px;
     padding-top: 30px;
 }
 
-.cover_title_3{
+.cover_title_3 {
     font-family: Raleway;
     font-size: 40px;
     font-weight: 700;
@@ -408,14 +408,14 @@ header{
 
 }
 
-.about_text{
+.about_text {
     width: 693px;
     height: 312px;
     top: 150px;
     position: relative;
 }
 
-.about_text_1{
+.about_text_1 {
     width: 688px;
     height: 120px;
     top: 150px;
@@ -428,7 +428,7 @@ header{
 
 }
 
-.about_text_2{
+.about_text_2 {
     width: 693px;
     height: 168px;
     top: 294px;
@@ -445,7 +445,7 @@ header{
 
 /*Стили для подвала*/
 
-.footer__menu{
+.footer__menu {
     padding-top: 140px;
     width: 1000px;
     height: 98px;
@@ -459,7 +459,7 @@ header{
     align-items: center;
 }
 
-.footer_contacts{
+.footer_contacts {
     width: 240.52px;
     height: 98px;
     top: 2842px;
@@ -470,7 +470,7 @@ header{
     font-style: normal;
 }
 
-.footer_list_menu{
+.footer_list_menu {
     width: 149px;
     height: 64px;
     top: 2843px;
@@ -482,11 +482,11 @@ header{
     list-style: none;
 }
 
-.footer_list_items_underline{
+.footer_list_items_underline {
     text-decoration: underline;
 }
 
-.footer_social_list{
+.footer_social_list {
     width: Hug (240px)px;
     height: Hug (48px)px;
     top: 2843px;
@@ -498,7 +498,7 @@ header{
     align-items: center;
 }
 
-.vk, .yt, .pi{
+.vk, .yt, .pi {
     width: 48px;
     height: 48px;
     gap: 0px;
