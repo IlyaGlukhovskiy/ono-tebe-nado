@@ -20,7 +20,6 @@ header {
     height: 22px;
     top: 44px;
     left: 26.52px;
-    border: 1px;
 }
 
 .header_list_items {
@@ -51,10 +50,10 @@ header {
 }
 
 .header_logo {
-    width: 129.11px;
-    height: 104.65px;
-    top: 1.16px;
-    left: 9.03px;
+    width: 148px;
+    height: 105px;
+    left: 454px;
+    
 }
 
 .header_contact_info {
@@ -98,9 +97,10 @@ header {
     flex-direction: column;
 }
 
+
 .jambotron::after {
     display: flex;
-    content: "-"; 
+    content: "";
     position: absolute;
     top: 0;
     right: 0;
