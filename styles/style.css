@@ -79,6 +79,12 @@ header {
 
 /*Стили для тела*/
 
+.sup{
+    vertical-align: sub;
+    font-size: 15px;
+    color: red;
+}
+
 .dark_jambotron {
     position: relative;
 }
@@ -193,7 +199,7 @@ header {
     word-wrap: break-word;
 }
 
-.cover_title_2{
+.cover_title_2 {
     font-size: 40px;
     padding-top: 10px;
 }
@@ -356,7 +362,7 @@ header {
     left: 24px;
 }
 
-.logo_position{
+.logo_position {
     padding-left: 45px;
 }
 
@@ -503,7 +509,7 @@ header {
     text-align: center;
 }
 
-.footer_list_menu{
+.footer_list_menu {
     font-family: Raleway;
     font-size: 16px;
     font-weight: 400;
